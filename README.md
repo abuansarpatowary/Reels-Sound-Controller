@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/icon/icon-128.png" alt="Reels Sound Controller Logo" width="128"/>
+  <img src="public/icon/128.png" alt="Reels Sound Controller Logo" width="128"/>
   <h1>Reels Sound Controller</h1>
   <p>A browser extension for controlling Facebook Reels volume with style!</p>
 </div>
