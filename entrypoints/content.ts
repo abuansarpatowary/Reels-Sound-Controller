@@ -1,7 +1,11 @@
 import { storage } from '@wxt-dev/storage';
 
 export default defineContentScript({
-  matches: ['*://*.facebook.com/reel/*'],
+    // Add Instagram reels URL pattern
+    matches: [
+      '*://*.facebook.com/reel/*',
+      '*://*.instagram.com/reels/*'
+    ],
   async main() {
     // Define storage items for better type safety and consistency
     const volumeStorage = storage.defineItem<number>('local:reelsVolume', {
