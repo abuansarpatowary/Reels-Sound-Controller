@@ -40,3 +40,53 @@
 .read-the-docs {
   color: #888;
 }
+
+.popup-container {
+  width: 300px;
+  padding: 16px;
+  color: #213547;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #1a98ff;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.features {
+  margin: 16px 0;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 8px 0;
+  color: #444;
+  display: flex;
+  align-items: center;
+}
+
+.features li:before {
+  content: "•";
+  color: #1a98ff;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.footer {
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+}
