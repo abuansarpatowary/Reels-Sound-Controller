@@ -1,8 +1,8 @@
 {
   "name": "Reels Sound Controller",
-  "description": "Mute, unmute, and adjust Facebook Reels volume like a pro.",
+  "description": "Mute, unmute, and adjust Facebook, Instagram Reels volume like a pro.",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
